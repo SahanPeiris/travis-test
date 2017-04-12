@@ -14,6 +14,9 @@ class TestFactorial(unittest.TestCase):
         res = fact(5)
         self.assertEqual(res, 120)
 
+    def test_will_fail(self):
+        self.assertEqual(1, 2)
+
 
 if __name__ == '__main__':
     unittest.main()
