@@ -15,7 +15,10 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(res, 120)
 
     def test_will_fail(self):
-        self.assertEqual(1, 2)
+        """
+        A test put in place for the sharing
+        """
+        self.assertEqual(1, 1)
 
 
 if __name__ == '__main__':
